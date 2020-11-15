@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+.recipe{
+    border-radius:10px;
+    box-shadow: 0px 5px 20px rgb(73, 73, 73);
+    margin: 20px;
+    /* padding:10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.recipe:hover{
+   transform: scale(1.01,1.01);
+}
+
+.image{
+    padding: 10px;
+}
+
+.calories{
+    padding:15px 18px;
+    border:1px solid greenyellow;
+    border-radius:10px;
+
+}
+
+.label{
+    font-family: 'Heebo', sans-serif !important;
+}
+
+.healthLabels{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.healthLabelsElements{
+    
+    margin: 5px 10px;
+    padding:5px 8px;
+    background-color: yellowgreen;
+
+
+}
